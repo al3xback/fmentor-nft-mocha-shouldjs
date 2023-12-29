@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as var;
+
+.btn {
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.btn--link {
+	color: var.$color-white;
+	transition: color 0.15s ease-in-out;
+}
+
+.btn--link:hover {
+	color: var.$color-cyan;
+}
