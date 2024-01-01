@@ -2,12 +2,17 @@
 
 .btn {
 	display: inline-flex;
+	padding: 0;
+	background-color: transparent;
+	border: 1px solid transparent;
 	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: all 0.15s ease-in-out;
 }
 
 .btn--link {
 	color: var.$color-white;
-	transition: color 0.15s ease-in-out;
 }
 
 .btn--link:hover {
