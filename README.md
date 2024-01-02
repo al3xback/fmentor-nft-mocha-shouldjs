@@ -13,14 +13,14 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://al3xback.github.io/fmentor-nft-flex/
+- Live Site URL: -
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- Mocha - ShouldJs
+- Mocha - Should.js Testing
 - Mobile-first workflow
 
 ## Author

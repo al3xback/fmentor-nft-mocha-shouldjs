@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-nft-mocha-shouldjs",
 	"version": "1.0.0",
-	"description": "nft preview card component using mocha and shouldjs",
+	"description": "nft preview card component using mocha and should.js testing",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
