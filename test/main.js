@@ -4,7 +4,7 @@ import got from 'got';
 
 const { JSDOM } = jsdom;
 
-const url = 'https://al3xback.github.io/fmentor-nft-flex/';
+const url = 'https://al3xback.github.io/fmentor-nft-mocha-shouldjs/';
 
 const getData = () => {
 	return got(url)
