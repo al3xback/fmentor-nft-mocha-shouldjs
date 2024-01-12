@@ -55,10 +55,10 @@ describe('DOM', () => {
 
 	it("should have elements with class of 'card__image' and 'card__content'", () => {
 		const cardEl = document.querySelector('.card');
-		const isCardImageElExist = !!cardEl.querySelector('.card__image');
+		const isCardImgElExist = !!cardEl.querySelector('.card__image');
 		const isCardContentElExist = !!cardEl.querySelector('.card__content');
 
-		isCardImageElExist.should.be.true();
+		isCardImgElExist.should.be.true();
 		isCardContentElExist.should.be.true();
 	});
 
