@@ -26,14 +26,14 @@
 	"homepage": "https://github.com/al3xback/fmentor-nft-mocha-shouldjs#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
-		"got": "^14.0.0",
-		"jsdom": "^23.0.1",
-		"mocha": "^10.2.0",
 		"npm-run-all": "^4.1.5",
 		"postcss": "^8.4.31",
 		"postcss-cli": "^10.1.0",
 		"prettier": "^2.8.8",
 		"sass": "^1.62.1",
+		"got": "^14.0.0",
+		"jsdom": "^23.0.1",
+		"mocha": "^10.2.0",
 		"should": "^13.2.3"
 	},
 	"browserslist": [

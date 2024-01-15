@@ -21,6 +21,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Mocha - Should.js
+- Got
+- Jsdom
 - Mobile-first workflow
 
 ## Author
