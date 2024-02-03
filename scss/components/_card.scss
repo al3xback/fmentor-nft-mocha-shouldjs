@@ -8,6 +8,13 @@
 	flex-direction: column;
 }
 
+.card__stats-list,
+.card__stats-list-item,
+.card__author {
+	display: flex;
+	align-items: center;
+}
+
 .card {
 	width: 100%;
 	max-width: func.em(350);
@@ -57,13 +64,7 @@
 	margin-bottom: func.em(16, 18);
 }
 
-.card__stats-list {
-	display: flex;
-}
-
 .card__stats-list-item {
-	display: flex;
-	align-items: center;
 	width: 50%;
 	font-size: func.em(15);
 }
@@ -83,8 +84,6 @@
 }
 
 .card__author {
-	display: flex;
-	align-items: center;
 	padding-top: func.em(16);
 	margin-top: func.em(16);
 	border-top: 1px solid var.$color-dark-blue-3;
