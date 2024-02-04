@@ -65,6 +65,7 @@
 }
 
 .card__stats-list-item {
+	gap: func.em(7.7);
 	width: 50%;
 	font-size: func.em(15);
 }
@@ -80,10 +81,10 @@
 
 .card__stats-list-item i {
 	flex: none;
-	margin-right: func.em(7.7);
 }
 
 .card__author {
+	gap: func.em(16);
 	padding-top: func.em(16);
 	margin-top: func.em(16);
 	border-top: 1px solid var.$color-dark-blue-3;
@@ -93,7 +94,6 @@
 	flex: none;
 	width: func.em(33);
 	height: auto;
-	margin-right: func.em(16);
 	border: 1px solid var.$color-white;
 	border-radius: 50%;
 }
