@@ -1,9 +1,10 @@
 {
 	"name": "fmentor-nft-mocha-shouldjs",
+	"private": true,
 	"version": "1.0.0",
-	"description": "nft preview card component using mocha and should.js",
-	"main": "index.js",
 	"type": "module",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
 		"sass-prod": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
@@ -14,16 +15,6 @@
 		"test": "mocha",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-nft-mocha-shouldjs.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-nft-mocha-shouldjs/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-nft-mocha-shouldjs#readme",
 	"devDependencies": {
 		"autoprefixer": "^10.4.16",
 		"got": "^14.0.0",
